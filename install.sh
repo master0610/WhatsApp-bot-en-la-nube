@@ -90,12 +90,12 @@ echo -e '\033[0m\033[1;31m
  |_|   |_|   |_| |_| |_| | .__/   \___|  \__, |
                          |_|             |___/ 
 \033[0m'
-pkg install pulseaudio
-pkg install sox
+apt install pulseaudio
+apt install sox
 pulse audio -D
-pkg install termimage
-pkg install toilet
-pkg install cowsay
+apt install termimage
+apt install toilet
+apt install cowsay
 echo -e '\033[0m\033[1;35m
       _   _   _       _   _   _            ____  
      | | | | | |     | | | | | |   __  __ |  _ \ 
@@ -103,7 +103,7 @@ echo -e '\033[0m\033[1;35m
  | |_| | | |_| | | |_| | | |_| |    >  <  | |_| |
   \___/   \___/   \___/   \___/    /_/\_\ |____/ 
 \033[0m'
-pkg install neofetch
+apt install neofetch
 neofetch
 echo -e '\033[0m\033[1;31m
                              _       _                       _         
